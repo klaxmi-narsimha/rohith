@@ -1,0 +1,11 @@
+.d1{
+    display: flex;
+   
+    justify-content: center;
+
+}
+.button{
+    width: 20%;
+    height: 30px;
+    padding-top: 5px;
+} 

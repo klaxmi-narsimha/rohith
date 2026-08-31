@@ -26,11 +26,11 @@ function Register() {
           <label htmlFor="confirmPassword">Confirm Password</label>
           <input type="password" id="confirmPassword" placeholder="Re-enter password" required />
         </div>
-<Link to="/register">
+<Link to="/home">
         <button type="submit" className="register-btn">Sign Up</button>
 </Link>
         <p className="login-text">
-          Already have an account? <a href="/login">Login</a>
+          Already have an account? <Link to="/login">Login</Link>
         </p>
       </form>
     </div>

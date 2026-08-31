@@ -1,5 +1,6 @@
 /* Reset */
 * {
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,6 +16,8 @@
   padding: 1rem 2rem;
   color: #fff;
   width: 100vw;
+  position: fixed;
+  z-index: 1000;
 
 }
 
@@ -32,19 +35,23 @@
 
 /* Main Content */
 .main-content {
-  padding: 2rem;
+  margin-top: auto;
+ 
+  padding: 5rem;
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
 }
 
-.main-content h2 {
-  margin-bottom: 1rem;
-  color: #145388;
-}
+
 
 /* Table */
 .opportunity-table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
+  
 }
 
 .opportunity-table th,
@@ -80,7 +87,8 @@
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
+  position: fixed;
 }
